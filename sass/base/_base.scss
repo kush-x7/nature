@@ -1,0 +1,19 @@
+*,
+*::after,
+*::before{  /*will reset all element margin 0 including h1,p*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   /*jo width specify karenge utne hi rahege paading wagr se kam ya jada nahi hoge  */
+}
+  
+html{
+    // this define what 1 rem is =
+    font-size: 62.5%;
+}
+
+
+
+body{
+    box-sizing: border-box;
+
+}
